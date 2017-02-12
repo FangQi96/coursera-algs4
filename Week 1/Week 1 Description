@@ -1,0 +1,9 @@
+1.Just get used to the use of exception, a very useful feature, can locate where the bug occurs quickly.
+
+2.Notice that Eclipse's Run button will run the code with no command line parameter. In PercolationStats.java case, this will cause an exception(array out of boundary), so set the Run Configurations first.
+
+3.If run the code in CMD window, remember to use javac-algs4 and java-algs4 to compile or run the code, otherwise, the package provided by the class can't be used.
+
+4.Try not to use static variable, it's quite a dangerous action and is discouraged through the submission feedback.
+
+5.Take good care of the backwash problem, two WeightedUnionFindUF objects can solve it in a quite proper way.
